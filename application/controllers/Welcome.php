@@ -24,8 +24,9 @@ class Welcome extends CI_Controller
 	{
 		// TODO: Change with your sandbox / production MIDTRANS_SERVER_KEY
 		$client_key = '<your client key>';
-		Midtrans\Config::$serverKey = '<your server key>';
-		Midtrans\Config::$clientKey = $client_key;
+		$server_key = '<your server key>';
+		\Midtrans\Config::$serverKey = $server_key;
+		\Midtrans\Config::$clientKey = $client_key;
 
 		\Midtrans\Config::$isProduction = false;
 		\Midtrans\Config::$isSanitized = true;
