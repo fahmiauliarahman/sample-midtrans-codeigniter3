@@ -23,7 +23,7 @@
 
 1. Clone this project using HTTPS or SSH
 2. go to your root project folder
-3. run `composer install on terminal`
+3. open terminal and run `composer install`
 4. edit ` $config['base_url']` with your base url on `application/config/config.php`
 
 5. edit `$client_key` value and `$serverKey` value on `application/controllers/Welcome.php`
